@@ -1,0 +1,3 @@
+contact:python3 contact.py
+txtmovie:python3 int.py
+cs:python3 wr.py ./cs~
