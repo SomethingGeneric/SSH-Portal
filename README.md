@@ -10,10 +10,9 @@ Small example of a way a user account could be restricted when logging in to SSH
     * ```
         Match User <username>
             ForceCommand python3 <path/to/repo/>portal.py
-    ```
 * Done!
 ## Adding/changing commands
 * In the repo directory, add a line to `commands.txt`, with syntax:
-    ```<command_that_user_inputs>:<command_that_system_executes>```
-* NOTE: If you're using a sh script or system command, you might want to consider using below command, as sometimes portal/ssh immediatley clears screen:
-    ```python3 wr.py <path_to_script>```
+    *```<command_that_user_inputs>:<command_that_system_executes>```
+* NOTE: If you're using a sh script or system command, you might want to consider using this command, as sometimes portal/ssh immediatley clears screen:
+    *```python3 wr.py <path_to_script>```
