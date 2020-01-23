@@ -11,10 +11,11 @@ s = input("Your suggestion, " + n + ": ")
 
 sgst = "From: " + n + "\nContact info: " + c + "\nSuggestion: " + s 
 
-m.mkmessage("3019745990@vtext.com","Suggestion from " + name,sgst)
+m.mkmessage("3019745990@vtext.com","Suggestion from " + n,sgst)
+m.send()
 
 with open("suggestions.txt","a+") as f:
-    f.write(sgst + "\n")
+    f.write(sgst + "\n-----\n")
 
 print("Thanks, " + n + "!")
 input("Press enter to return")

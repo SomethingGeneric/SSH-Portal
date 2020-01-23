@@ -12,3 +12,4 @@ body = "Reply to " + replyto + "\n Subj: " + rsubject + "\n----\n" + rbody
 m.mkmessage("3019745990@vtext.com",subject,body)
 m.send()
 print("Thanks! Sent your question. You'll get a reply to " + replyto)
+input("Press enter to return")
