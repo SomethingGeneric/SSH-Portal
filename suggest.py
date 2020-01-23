@@ -17,3 +17,4 @@ with open("suggestions.txt","a+") as f:
     f.write(sgst + "\n")
 
 print("Thanks, " + n + "!")
+input("Press enter to return")
