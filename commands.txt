@@ -1,4 +1,5 @@
-contact:python3 contact.py
-txtmovie:python3 int.py
-cs:python3 wr.py ./cs~
-comment:python3 suggest.py
+contact:python3 contact.py:Send a message to admin
+txtmovie:python3 int.py:Play some text but fun
+cs:python3 wr.py ./cs:Wisdom from a cow
+comment:python3 suggest.py:Send suggestion to admin
+starwars:python3 wr.py ./stw:Watch starwars, but ascii (from towel.blinkenlights.nl)

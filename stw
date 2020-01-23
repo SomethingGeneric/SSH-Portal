@@ -1,0 +1,4 @@
+#/bin/bash
+echo "This is a relay to someone else's Starwars ASCII animation. It might break whenever. Press enter to do"
+read
+telnet towel.blinkenlights.nl

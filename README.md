@@ -17,6 +17,6 @@ Small example of a way a user account could be restricted when logging in to SSH
 * Done!
 ## Adding/changing commands
 * In the repo directory, add a line to `commands.txt`, with syntax:
-    * ```<command_that_user_inputs>:<command_that_system_executes>```
+    * ```<command_that_user_inputs>:<command_that_system_executes>:<description>```
 * NOTE: If you're using a sh script or system command, you might want to consider using this command, as sometimes portal/ssh immediatley clears screen:
     * ```python3 wr.py <path_to_script>```

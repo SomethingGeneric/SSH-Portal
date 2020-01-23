@@ -13,6 +13,7 @@ if os.getcwd() != "/home/guest/SSH-Portal":
 	os.chdir("/home/guest/SSH-Portal")
 
 commands = {}
+desc = {}
 
 if os.path.exists("commands.txt"):
 	with open("commands.txt") as f:
@@ -21,6 +22,7 @@ if os.path.exists("commands.txt"):
 	for line in lines:
 		data = line.split(":")
 		commands[data[0]] = data[1]
+		desc[data[0]] = data[2]
 else:
 	print(r + "No commands file. Please email matt@mattcompton.me" + res)
 	exit()
@@ -34,9 +36,9 @@ while 1==1:
 	print("Here's your choice of actions!")
 	for command in commands:
 		if command != "cs":
-			print("- " + command)
+			print("- " + command + " : " + desc[command])
 		else:
-			cprint("- cs", 'red', attrs=['blink'])
+			cprint("- cs : " + desc[command], 'red', attrs=['blink'])
 	print("- exit")
 	choice = input("> ")
 	if choice in commands:
