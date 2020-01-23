@@ -1,5 +1,8 @@
 # SSH-Portal
 Small example of a way a user account could be restricted when logging in to SSH
+## Demo
+* Point your ssh client to guest@mattcompton.me
+* Password is `account`
 ## Setup (assuming you're using OpenSSH server on some *nix-ish system)
 * Create user to be used as portal account. (differs by OS), and switch to it
 * `git clone https://github.com/SomethingGeneric/SSH-Portal`
