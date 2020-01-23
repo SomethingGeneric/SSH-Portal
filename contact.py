@@ -1,5 +1,7 @@
 from emc import mailer
-m = mailer("mcompton2002@gmail.com","Igothacked?21")
+with open("../pass") as f:
+    passw = f.read()
+m = mailer("mcompton2002@gmail.com",passw)
 replyto = input("Email for Matt to respond to: ")
 rsubject = input("Subject: ")
 rbody = input("Message: ")
