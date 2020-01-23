@@ -7,6 +7,7 @@ Small example of a way a user account could be restricted when logging in to SSH
 * Create user to be used as portal account. (differs by OS), and switch to it
 * `git clone https://github.com/SomethingGeneric/SSH-Portal`
 * `cd SSH-Portal && python3 -m pip install -r requirements.txt`
+* Change lines 12 & 13 of `portal.py` to the correct (full) path to the repo folder
 * Optional:
     * Default commands include using `cowsay`, `lolcat`, and `fortune.` If you're on Debian/Ubuntu/Mint: `sudo apt-get install -y cowsay lolcat fortune` (might want to do on regular sudo account instead of making the portal account a sudoer.)
 * Edit `/etc/ssh/sshd_config` and add something like

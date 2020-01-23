@@ -9,8 +9,8 @@ colorama.init()
 r = colorama.Fore.RED
 res = colorama.Style.RESET_ALL
 
-if os.getcwd() != "/home/guest/captive":
-	os.chdir("/home/guest/captive")
+if os.getcwd() != "/home/guest/SSH-Portal":
+	os.chdir("/home/guest/SSH-Portal")
 
 commands = {}
 
