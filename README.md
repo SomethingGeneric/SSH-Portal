@@ -9,7 +9,7 @@ Small example of a way a user account could be restricted when logging in to SSH
 * `cd SSH-Portal && python3 -m pip install -r requirements.txt`
 * Change lines 5-8 of `portal.py` to the values that apply to you
 * Optional:
-    * Default commands include using `cowsay`, `lolcat`, and `fortune.` If you're on Debian/Ubuntu/Mint: `sudo apt-get install -y cowsay lolcat fortune` (might want to do on regular sudo account instead of making the portal account a sudoer.)
+    * Default commands include using `cowsay`, `lolcat`, `moon-buggy` and `fortune.` If you're on Debian/Ubuntu/Mint: `sudo apt-get install -y cowsay lolcat fortune moon-buggy` (might want to do on regular sudo account instead of making the portal account a sudoer.)
 * Edit `/etc/ssh/sshd_config` and add something like
     * ```
         Match User <username>
