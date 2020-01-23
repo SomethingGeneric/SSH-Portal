@@ -3,3 +3,5 @@ txtmovie:python3 int.py:Play some text but fun
 cs:python3 wr.py ./cs:Wisdom from a cow
 comment:python3 suggest.py:Send suggestion to admin
 starwars:python3 wr.py ./stw:Watch starwars, but ascii (from towel.blinkenlights.nl)
+sh:python3 shell.py:Run Bash
+buggy:python3 wr.py moon-buggy:Moon Buggy Game
