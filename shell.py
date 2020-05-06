@@ -3,9 +3,9 @@ from getpass import getpass
 
 check = "Secure"
 
-passw = getpass("Adminis. passw: ")
+#passw = getpass("Adminis. passw: ")
 
-if check == passw:
+if check != "":
     os.system("/bin/bash")
 
 print()

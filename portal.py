@@ -30,9 +30,10 @@ if os.path.exists("commands.txt"):
 		raw = f.read()
 	lines = raw.split("\n")
 	for line in lines:
-		data = line.split(":")
-		commands[data[0]] = data[1]
-		desc[data[0]] = data[2]
+		if ":" in line:
+			data = line.split(":")
+			commands[data[0]] = data[1]
+			desc[data[0]] = data[2]
 else:
 	print(r + "No commands file. Please email " + admin_email + res)
 	exit()
